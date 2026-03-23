@@ -6,7 +6,7 @@ function Header() {
     return (
       <header className={styles.header}>
         <div className={styles.logo}> 
-          <p>Pokédex</p>
+          <p>Mini-Pokédex</p>
         </div>
         <Search />
         <NavBar />

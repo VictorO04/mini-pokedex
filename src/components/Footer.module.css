@@ -1,4 +1,4 @@
-footer {
+.footer {
     background-color: black;
     width: 100%;
     height: 100px;
@@ -9,20 +9,21 @@ footer {
     gap: 0.625rem;
 }
 
-.links {
+.footerLinks {
     display: flex;
     gap: 1.125rem;
 }
 
-.links a {
+.footerLinks a {
     transition: 0.3s;
 }
 
-.links a:hover {
+.footerLinks a:hover {
     transform:scale(1.1)
 }
 
-.texto {
+.footerText {
     color: white;
     font-size: 0.8rem;
+    letter-spacing: 0.8px;
 }

@@ -1,10 +1,9 @@
-import "./NavBar.css";
+import styles from "./NavBar.module.css";
 
 function NavBar() {
     return (
-        <nav className='nav-bar'>
-            <a href="/">Lista</a>
-            <a href="/">Tipos</a>
+        <nav className={styles.navBar}>
+            <a href="/">Home</a>
         </nav>
     );
 }

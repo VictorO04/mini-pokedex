@@ -1,12 +1,12 @@
-import "./Header.css";
+import styles from "./Header.module.css";
 import Search from "./Search";
 import NavBar from "./NavBar";
 
 function Header() {
     return (
-      <header>
-        <div className='logo'> 
-          <p>Pokédex</p>
+      <header className={styles.header}>
+        <div className={styles.logo}> 
+          <p>Mini-Pokédex</p>
         </div>
         <Search />
         <NavBar />

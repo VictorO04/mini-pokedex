@@ -1,9 +1,9 @@
-.nav-bar {
+.navBar {
     display: flex;
     gap: 2.125rem;
 }
 
-.nav-bar a {
+.navBar a {
     text-decoration: none;
     color: white;
     font-weight: light;
@@ -11,6 +11,6 @@
     transition: 0.3s;
 }
 
-.nav-bar a:hover {
+.navBar a:hover {
     color: rgb(122, 191, 255);
 }
